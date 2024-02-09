@@ -17,13 +17,14 @@ export async function POST (req: NextRequest) {
                      
     const secret = new TextEncoder().encode(process.env.TOKEN_SECRET);
     const token = await new jose.SignJWT({ id: user._id, role: user.role })
-      .setProtectedHeader({ alg: "HS256" })
-      .setExpirationTime(`${process.env.TOKEN_EXPIRATION_TIME}`)
-      .sign(secret)
+    .setProtectedHeader({ alg: "HS256" })
+    .setIssuedAt()
+    .setExpirationTime(`${process.env.TOKEN_EXPIRATION_TIME}`)
+    .sign(secret)
         
     const data = { status: 'success', user, token };
     const response = await new NextResponse(JSON.stringify(data), { status: 200 });    
-    response.cookies.set('jwt', token, {
+    response.cookies.set('token', token, {
       maxAge: 1 * 24 * 60 * 60 * 1000,
       httpOnly: process.env.NODE_ENV !== "development",
       secure: process.env.NODE_ENV === 'production' ? true : false,
