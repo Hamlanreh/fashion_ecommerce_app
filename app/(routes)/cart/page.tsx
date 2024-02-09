@@ -18,8 +18,8 @@ export default function Cart() {
     const { isAuthenticated } = useAuthContext();
     const { items, quantity, total, clearCart } = useCartContext();
 
-    const appearance = { theme: 'stripe', };
-    const options = { clientSecret, appearance };
+    const appearance: any = { theme: 'stripe', };
+    const options: any = { clientSecret, appearance };
 
     useEffect(() => {
         // Create PaymentIntent as soon as the page loads
