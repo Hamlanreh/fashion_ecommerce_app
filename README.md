@@ -4,10 +4,10 @@
 - To login as a user use ( email: user1@gmail.com, password: test1234 )
 
 ### Demo url
-[View Live Demo Link Here!](https://weather-app-cloudify.vercel.app/)
+[View the site here!](https://fashiondev-ecommerce.vercel.app/)
 
 ### Code url
-[View Live Demo Link Here!](https://github.com/Hamlanreh/weather_app/)
+[View the code here!](https://github.com/Hamlanreh/fashion_ecommerce_app)
 
 
 The fashion e-commerce web application for online fashion shopping with user authentication and payment system implementation

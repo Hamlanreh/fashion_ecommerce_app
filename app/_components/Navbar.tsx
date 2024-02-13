@@ -65,17 +65,13 @@ export default function Navbar() {
                         <Link href="/signup" className="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-purple-600 hover:border-purple-600">Sign up</Link>
                     </div>
                     
-                    <div className="sm:hidden cursor-pointer flex gap-x-8 items-center">
+                    <div className="sm:hidden cursor-pointer flex gap-x-6 items-center">
                         <Link href="/cart" className="relative flex items-center gap-x-2 mr-4">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
                             <span className="absolute -top-4 -right-6 bg-black text-white text-sm font-bold px-2 py-1 rounded-full">{quantity}</span>
                         </Link>
                         <div onClick={() => setToggleDropDown(!toggleDropDown)} className="cursor-pointer">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 h-5 fill-current dark:text-gray-100">
-                                <rect width="352" height="32" x="80" y="96"></rect>
-                                <rect width="352" height="32" x="80" y="240"></rect>
-                                <rect width="352" height="32" x="80" y="384"></rect>
-                            </svg>
+                            <svg height="24px" width="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> </g></svg>
                         </div>
                     </div>
                 </div>
