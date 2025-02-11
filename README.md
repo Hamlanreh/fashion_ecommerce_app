@@ -29,17 +29,6 @@ The fashion e-commerce web application for online fashion shopping with user aut
 
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-
-## Screenshots
-
-### Light mode
-![Screenshot (147)](https://github.com/Hamlanreh/weather_app/assets/101047579/8ee4465f-0963-408a-a157-c92183b66c43)
-### Dark mode
-![Screenshot (148)](https://github.com/Hamlanreh/weather_app/assets/101047579/acbdc6b2-d3c4-4d07-badb-caa5cb167fe9)
-### Forecast section Dark mode
-![Screenshot (149)](https://github.com/Hamlanreh/weather_app/assets/101047579/225dee1c-1934-4a2a-896a-8d9586b922c1)
-
-
 ## Contribution
 It open source and any contribution or solution to provided issues to it is appreciated, thank you.
 
